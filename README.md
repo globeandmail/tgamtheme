@@ -6,7 +6,7 @@
 
 This package contains a theme and colour palettes in The Globe and Mail's graphics style.
 
-It's designed to be used as a companion to The Globe's data journalism template, [**startr**](https://www.github.com/globeandmail/startr) and its function library, [**upstartr**](https://www.github.com/globeandmail/upstartr).
+It's designed to be used as a companion to The Globe's data journalism template, [**startr**](https://www.github.com/globeandmail/startr), and its function library, [**upstartr**](https://www.github.com/globeandmail/upstartr).
 
 ### Installation
 
