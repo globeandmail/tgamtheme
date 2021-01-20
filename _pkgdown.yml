@@ -1,0 +1,16 @@
+pandoc: 2.3.1
+
+pkgdown_sha: ~
+
+authors:
+  Tom Cardoso:
+    href: https://www.theglobeandmail.com/authors/tom-cardoso
+
+template:
+  params:
+    bootswatch: simplex
+  opengraph:
+    twitter:
+      creator: "@tom_cardoso"
+      card: summary_large_image
+      site: "https://globeandmail.github.io/tgamtheme/"

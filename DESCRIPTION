@@ -1,0 +1,19 @@
+Package: tgamtheme
+Type: Package
+Title: Globe and Mail graphics theme for ggplot2
+Version: 0.1.0
+Authors@R: c(person("Tom", "Cardoso", email = "tcardoso@globeandmail.com", role = c("aut", "cre"), comment = "creator and maintainer"))
+Maintainer: Tom Cardoso <tcardoso@globeandmail.com>
+Description: Theme and colour palettes for The Globe and Mail's graphics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    grDevices,
+    ggplot2
+Language: en-US
+URL: https://github.com/globeandmail/tgamtheme, https://globeandmail.github.io/tgamtheme
+BugReports: https://github.com/globeandmail/tgamtheme/issues
+RoxygenNote: 7.1.1
