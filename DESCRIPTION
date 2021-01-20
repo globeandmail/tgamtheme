@@ -1,6 +1,6 @@
 Package: tgamtheme
 Type: Package
-Title: Globe and Mail graphics theme for ggplot2
+Title: Globe and Mail Graphics Theme for ggplot2
 Version: 0.1.0
 Authors@R: c(person("Tom", "Cardoso", email = "tcardoso@globeandmail.com", role = c("aut", "cre"), comment = "creator and maintainer"))
 Maintainer: Tom Cardoso <tcardoso@globeandmail.com>
