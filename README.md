@@ -4,7 +4,9 @@
 [![R build status](https://github.com/globeandmail/tgamtheme/workflows/R-CMD-check/badge.svg)](https://github.com/globeandmail/tgamtheme/actions)
 <!-- badges: end -->
 
-This  is a companion package to The Globe and Mail's data journalism template, [**startr**](https://www.github.com/globeandmail/startr). It contains a series of functions meant to be consumed by the template project, plus additional helpful functions for day-to-day data journalism.
+This package contains a theme and colour palettes in The Globe and Mail's graphics style.
+
+It's designed to be used as a companion to The Globe's data journalism template, [**startr**](https://www.github.com/globeandmail/startr) and its function library, [**upstartr**](https://www.github.com/globeandmail/upstartr).
 
 ### Installation
 
