@@ -18,6 +18,9 @@ tgam_colors <- c(
 #' @param ... Character names of tgam_colors. Colour names include 'burgundy',
 #'   'sky', 'salmon', 'gold', 'gray', 'alt1', 'alt2', 'alt3', 'alt4', 'alt5'.
 #'
+#' @examples tgam_cols()
+#' @examples tgam_cols('burgundy')
+#'
 #' @export
 tgam_cols <- function(...) {
   cols <- c(...)
@@ -37,6 +40,9 @@ tgam_palettes <- list(
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
 #'
+#' @examples tgam_pal()(3)
+#' @examples tgam_pal(palette = 'alternate')(3)
+#'
 #' @export
 tgam_pal <- function(palette = 'main', reverse = FALSE, ...) {
   pal <- tgam_palettes[[palette]]
@@ -51,6 +57,13 @@ tgam_pal <- function(palette = 'main', reverse = FALSE, ...) {
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
+#'
+#' @examples
+#' library(ggplot2)
+#' ggplot(diamonds, aes(depth, color = cut)) +
+#'   geom_density() +
+#'   xlim(55, 70) +
+#'   scale_color_tgam()
 #'
 #' @export
 scale_color_tgam <- function(palette = 'main', discrete = TRUE, reverse = FALSE, ...) {
@@ -73,6 +86,12 @@ scale_colour_tgam <- scale_color_tgam
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE
+#'
+#' @examples
+#' library(ggplot2)
+#' ggplot(diamonds, aes(carat, fill = cut)) +
+#'   geom_density(position = 'fill') +
+#'   scale_fill_tgam()
 #'
 #' @export
 scale_fill_tgam <- function(palette = 'main', discrete = TRUE, reverse = FALSE, ...) {

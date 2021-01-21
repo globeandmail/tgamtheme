@@ -13,3 +13,8 @@ tgam_cols(...)
 \description{
 Function to extract The Globe and Mail's colors as hex codes
 }
+\examples{
+tgam_cols()
+tgam_cols('burgundy')
+
+}

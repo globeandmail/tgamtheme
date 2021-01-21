@@ -22,3 +22,11 @@ scale_color_gradientn(), used respectively when discrete is TRUE or FALSE}
 \description{
 Color scale constructor for The Globe and Mail's colors
 }
+\examples{
+library(ggplot2)
+ggplot(diamonds, aes(depth, color = cut)) +
+  geom_density() +
+  xlim(55, 70) +
+  scale_color_tgam()
+
+}

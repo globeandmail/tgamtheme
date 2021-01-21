@@ -16,3 +16,8 @@ tgam_pal(palette = "main", reverse = FALSE, ...)
 \description{
 Return function to interpolate a Globe and Mail color palette
 }
+\examples{
+tgam_pal()(3)
+tgam_pal(palette = 'alternate')(3)
+
+}

@@ -19,3 +19,10 @@ scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE}
 \description{
 Fill scale constructor for The Globe and Mail's colors
 }
+\examples{
+library(ggplot2)
+ggplot(diamonds, aes(carat, fill = cut)) +
+  geom_density(position = 'fill') +
+  scale_fill_tgam()
+
+}
