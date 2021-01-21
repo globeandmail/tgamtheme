@@ -11,6 +11,11 @@ It's designed to be used as a companion to The Globe's data journalism template,
 ### Installation
 
 ```r
+install.packages('tgamtheme')
+```
+
+Or, if you want to run a development version, you can install it from GitHub by doing:
+```r
 devtools::install_github('globeandmail/tgamtheme')
 library(tgamtheme)
 ```

@@ -17,3 +17,6 @@ Language: en-US
 URL: https://github.com/globeandmail/tgamtheme, https://globeandmail.github.io/tgamtheme
 BugReports: https://github.com/globeandmail/tgamtheme/issues
 RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
