@@ -6,7 +6,7 @@
 
 This package contains a theme and colour palettes in The Globe and Mail's graphics style.
 
-It's designed to be used as a companion to The Globe's data journalism template, [**startr**](https://www.github.com/globeandmail/startr), and its function library, [**upstartr**](https://www.github.com/globeandmail/upstartr).
+It's designed to be used as a companion to The Globe's data journalism template, [**startr**](https://github.com/globeandmail/startr), and its function library, [**upstartr**](https://github.com/globeandmail/upstartr).
 
 ### Installation
 
@@ -40,7 +40,7 @@ There's also a palette, `tgam_pal`, along with `scale_color_tgam` and `scale_fil
 
 ### Reference
 
-You can find the full reference manual for `tgamtheme`'s functions [**here**](https://globeandmail.github.io/tgamtheme).
+You can find the full reference manual for `tgamtheme`'s functions [**here**](https://globeandmail.github.io/tgamtheme/).
 
 
 ### Get in touch
