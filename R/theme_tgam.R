@@ -20,6 +20,8 @@ tgam_colors <- c(
 #'
 #' @examples tgam_cols()
 #' @examples tgam_cols('burgundy')
+#' 
+#' @return A character vector of one or more colours in The Globe's palette
 #'
 #' @export
 tgam_cols <- function(...) {
@@ -43,6 +45,8 @@ tgam_palettes <- list(
 #' @examples tgam_pal()(3)
 #' @examples tgam_pal(palette = 'alternate')(3)
 #'
+#' @return A character vector of interpolated colour values
+#'
 #' @export
 tgam_pal <- function(palette = 'main', reverse = FALSE, ...) {
   pal <- tgam_palettes[[palette]]
@@ -64,6 +68,8 @@ tgam_pal <- function(palette = 'main', reverse = FALSE, ...) {
 #'   geom_density() +
 #'   xlim(55, 70) +
 #'   scale_color_tgam()
+#'
+#' @return A ggplot2 colour scale object, to be passed to a ggplot2 object
 #'
 #' @export
 scale_color_tgam <- function(palette = 'main', discrete = TRUE, reverse = FALSE, ...) {
@@ -93,6 +99,8 @@ scale_colour_tgam <- scale_color_tgam
 #'   geom_density(position = 'fill') +
 #'   scale_fill_tgam()
 #'
+#' @return A ggplot2 colour scale object, to be passed to a ggplot2 object
+#'
 #' @export
 scale_fill_tgam <- function(palette = 'main', discrete = TRUE, reverse = FALSE, ...) {
   pal <- tgam_pal(palette = palette, reverse = reverse)
@@ -112,6 +120,8 @@ scale_fill_tgam <- function(palette = 'main', discrete = TRUE, reverse = FALSE, 
 #' @param family Font family
 #' @param title Font to use for title text
 #' @param position How should headings be positioned? Options are 'center' or 'left'. (Default: 'center',)
+#'
+#' @return A ggplot2 theme object, to be passed to a ggplot2 object
 #'
 #' @export
 theme_tgam <- function(size = 12, family = 'GMsanC-Regular', title = 'GMsanC-Bold', position = 'center') {

@@ -10,6 +10,9 @@ tgam_cols(...)
 \item{...}{Character names of tgam_colors. Colour names include 'burgundy',
 'sky', 'salmon', 'gold', 'gray', 'alt1', 'alt2', 'alt3', 'alt4', 'alt5'.}
 }
+\value{
+A character vector of one or more colours in The Globe's palette
+}
 \description{
 Function to extract The Globe and Mail's colors as hex codes
 }

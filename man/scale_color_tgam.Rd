@@ -19,6 +19,9 @@ scale_colour_tgam(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 \item{...}{Additional arguments passed to discrete_scale() or
 scale_color_gradientn(), used respectively when discrete is TRUE or FALSE}
 }
+\value{
+A ggplot2 colour scale object, to be passed to a ggplot2 object
+}
 \description{
 Color scale constructor for The Globe and Mail's colors
 }

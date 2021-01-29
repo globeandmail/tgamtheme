@@ -1,10 +1,10 @@
 Package: tgamtheme
 Type: Package
-Title: Globe and Mail Graphics Theme for ggplot2
+Title: Globe and Mail Graphics Theme for 'ggplot2'
 Version: 0.1.0
 Authors@R: c(person("Tom", "Cardoso", email = "tcardoso@globeandmail.com", role = c("aut", "cre"), comment = "creator and maintainer"))
 Maintainer: Tom Cardoso <tcardoso@globeandmail.com>
-Description: Theme and colour palettes for The Globe and Mail's graphics.
+Description: Theme and colour palettes for The Globe and Mail's graphics. Includes colour and fill scale functions, colour palette helpers and a Globe-styled 'ggplot2' theme object.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

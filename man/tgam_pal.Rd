@@ -13,6 +13,9 @@ tgam_pal(palette = "main", reverse = FALSE, ...)
 
 \item{...}{Additional arguments to pass to colorRampPalette()}
 }
+\value{
+A character vector of interpolated colour values
+}
 \description{
 Return function to interpolate a Globe and Mail color palette
 }

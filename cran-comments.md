@@ -6,3 +6,6 @@
 
 ## R CMD check results
 There were no ERRORs, WARNINGs or NOTEs.
+
+## Other notes
+Updated DESCRIPTION and added \\value fields to documentation per maintainer request.

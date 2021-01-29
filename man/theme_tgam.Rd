@@ -20,6 +20,9 @@ theme_tgam(
 
 \item{position}{How should headings be positioned? Options are 'center' or 'left'. (Default: 'center',)}
 }
+\value{
+A ggplot2 theme object, to be passed to a ggplot2 object
+}
 \description{
 Theme function to be passed as an argument during ggplot2 charting.
 }
